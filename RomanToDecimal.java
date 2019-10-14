@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 class RomanToDecimal {
-    public int romanToInt(String s) {
+    public static int romanToInt(String s) {
         int decimalInt = 0;
         HashMap<String,Integer> newMap = new HashMap<String,Integer>();
         newMap.put("IV",4);
@@ -12,9 +12,14 @@ class RomanToDecimal {
         newMap.put("CM",900);
 
         int length = s.length();
-
+        for(int i = 0;i<length;i++){
+            System.out.println(s.charAt(i));
+        }
 
         return decimalInt;
+    }
+    public static void main(String[] args){
+        romanToInt("IVI");
     }
 }
 
