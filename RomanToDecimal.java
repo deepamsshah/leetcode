@@ -22,4 +22,3 @@ class RomanToDecimal {
         romanToInt("IVI");
     }
 }
-
