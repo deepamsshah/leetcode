@@ -12,8 +12,6 @@ class diagonalSum {
                 }
             }
         }
-
-
         if(mat.length%2!=0){
             secondary-=mat[(mat.length-1)/2][(mat.length-1)/2];
         }
