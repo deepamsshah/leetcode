@@ -13,9 +13,18 @@ class diagonalSum {
             }
         }
 
+
         if(mat.length%2!=0){
             secondary-=mat[(mat.length-1)/2][(mat.length-1)/2];
         }
         return primary+secondary;
+    }
+
+    public static void main(String[] args) {
+        String n ="153";
+        System.out.println(n.length());
+        for(int i=0;i<n.length();i++){
+            System.out.println(n.charAt(i));
+        }
     }
 }
