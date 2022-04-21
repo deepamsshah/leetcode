@@ -5,9 +5,6 @@ class Solution {
             yo[2*i]=nums[i];
             yo[(2*i)+1]=nums[n+i];
         }
-        // for(int j=0;j<n;j++){
-        //     yo[(2*j)+1]=nums[n+j];
-        // }
         return yo;
     }
 }
