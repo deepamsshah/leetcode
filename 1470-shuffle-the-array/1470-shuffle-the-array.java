@@ -3,10 +3,11 @@ class Solution {
         int[] yo =new int[2*n];
         for(int i=0;i<n;i++){
             yo[2*i]=nums[i];
+            yo[(2*i)+1]=nums[n+i];
         }
-        for(int j=0;j<n;j++){
-            yo[(2*j)+1]=nums[n+j];
-        }
+        // for(int j=0;j<n;j++){
+        //     yo[(2*j)+1]=nums[n+j];
+        // }
         return yo;
     }
 }
